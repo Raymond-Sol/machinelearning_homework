@@ -60,6 +60,10 @@ git commit -m "change description"
 3. [kMeans](homework_03_kmeans/README.md)
 4. [Logistic Regression](homework_04_logistic_regression/README.md)
 5. [Neural Networks](homework_05_nn/README.md)
+6. [PyTorch](homework_06_pytorch)
+7. [Deep Learning](homework_07_dl)
+8. [Object Detection](homework_08_object_detection)
+9. [Deep Q-Learning](homework_09_dqn)
 
 
 
@@ -72,6 +76,7 @@ git commit -m "change description"
 5. [Tetris](report_04_Tetris/README.md)
 6. [Jigsaw-Puzzle](report_05_Jigsaw-Puzzle/README.md)
 7. [Sudoku](report_06_Sudoku/README.md)
+7. [FacialKeypoint](report_07_FacialKeypoint)
 
 
 
