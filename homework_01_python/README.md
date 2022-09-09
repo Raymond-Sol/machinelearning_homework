@@ -271,6 +271,7 @@ ballopq
 ## References
 上面的程序只是简单的练练手，仅仅通过上面的程序练习还是不够的，大家需要更多的程序练习才能把Python学好，下面是一些参考的练习题，大家可以挑选一些去做做。
 
+* [Python基础练习题](https://gitee.com/pi-lab/python_turtle/blob/master/python/0-code_practice_1-basic.md)
 * [Python 练习册，每天一个小程序](https://github.com/Yixiaohan/show-me-the-code)
 * [70个python练手项目](practice_projects.md)
 * [PythonExercises](https://github.com/greyli/PythonExercises)
