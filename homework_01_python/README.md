@@ -57,7 +57,7 @@ One is always on a strange road, watching strange scenery and listening to stran
 
 ## 6. 排序算法
 
-给一个数字列表，将其按照由大到小的顺序排列
+给一个数字列表，将其按照由大到小的顺序排列，同时输出排序后元素在原始列表中的下标
 
 例如输入数据为：
 ```
@@ -67,12 +67,17 @@ One is always on a strange road, watching strange scenery and listening to stran
 输出为：
 ```
 0, 1, 2, 2, 4, 5, 5, 8, 9, 9, 10, 34
+11,  0,  3,  5,  2,  7, 10,  9,  4,  8,  1,  6
 ```
+
+上面结果中第一行是排序后的元素；第二行是排序后元素在原始列表中的下标
+
+
 
 要求：
 
 1. **自己实现排序算法！**
-2. 如何输出排序后数据在原始列表中的下标？
+2. 如果列表的长度比较大，如何提高排序的效率？
 
 
 
