@@ -57,7 +57,7 @@ One is always on a strange road, watching strange scenery and listening to stran
 
 ## 6. 排序算法
 
-给一个数字列表，将其按照由大到小的顺序排列
+给一个数字列表，将其按照由大到小的顺序排列，同时输出排序后元素在原始列表中的下标
 
 例如输入数据为：
 ```
@@ -67,12 +67,17 @@ One is always on a strange road, watching strange scenery and listening to stran
 输出为：
 ```
 0, 1, 2, 2, 4, 5, 5, 8, 9, 9, 10, 34
+11,  0,  3,  5,  2,  7, 10,  9,  4,  8,  1,  6
 ```
+
+上面结果中第一行是排序后的元素；第二行是排序后元素在原始列表中的下标
+
+
 
 要求：
 
 1. **自己实现排序算法！**
-2. 如何输出排序后数据在原始列表中的下标？
+2. 如果列表的长度比较大，如何提高排序的效率？
 
 
 
@@ -271,6 +276,7 @@ ballopq
 ## References
 上面的程序只是简单的练练手，仅仅通过上面的程序练习还是不够的，大家需要更多的程序练习才能把Python学好，下面是一些参考的练习题，大家可以挑选一些去做做。
 
+* [Python基础练习题](https://gitee.com/pi-lab/python_turtle/blob/master/python/0-code_practice_1-basic.md)
 * [Python 练习册，每天一个小程序](https://github.com/Yixiaohan/show-me-the-code)
 * [70个python练手项目](practice_projects.md)
 * [PythonExercises](https://github.com/greyli/PythonExercises)
