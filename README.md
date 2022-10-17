@@ -10,8 +10,6 @@
 
 关于如何提交作业，如何使用[《Git》](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)，[《Markdown》](https://gitee.com/pi-lab/learn_programming/blob/master/6_tools/markdown/README.md)等等，可以参考各自的教程和使用帮助。
 
-* [English Description](README_ENG.md)
-
 
 
 ## 1. 要求
@@ -48,8 +46,6 @@ git commit -m "change description"
 
 
 更多关于Git的用法可以阅读 [《Git教程》](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)
-
-大家提交作业后，我会在大家的项目里写入批注、建议等等，从而构建良好的反馈机制，能够更有效的取得学习效果。
 
 
 
