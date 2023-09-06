@@ -52,7 +52,7 @@ We also include `gender_submission.csv`, a set of predictions that assume all an
 * Design the classification model, implement the code
 * Think methods to resolve the problem of missing data of some column
 * How to convert the `pclass`, `embarked` fields to vector field
-* Submit your result to [the website](https://www.kaggle.com/c/titanic) (如果不能访问这个网站，则想办法如何科学上网)
+* Submit your result to [the website](https://www.kaggle.com/c/titanic) (如果不能访问这个网站，则想办法如何*科-*-学=上网)
 * Finish the report by using the template `report_template.ipynb`
 * Submit code, report through `git`
 
