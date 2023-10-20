@@ -57,7 +57,7 @@ One is always on a strange road, watching strange scenery and listening to stran
 
 ## 6. 排序算法
 
-给一个数字列表，将其按照由大到小的顺序排列，同时输出排序后元素在原始列表中的下标
+给一个数字列表，将其按照由小到大的顺序排列，同时输出排序后元素在原始列表中的下标
 
 例如输入数据为：
 ```
