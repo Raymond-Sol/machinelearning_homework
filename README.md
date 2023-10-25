@@ -56,12 +56,12 @@ git commit -m "change description"
 
 ## 3. 作业
 
-1. [Python基础](homework_01_python/README.md)
-2. [Numpy & Matplotlib](homework_02_numpy_matplotlib/README.md)
+1. [☆Python基础](homework_01_python/README.md)
+2. [☆Numpy & Matplotlib](homework_02_numpy_matplotlib/README.md)
 3. [kNN](homework_03_knn/README.md)
-4. [kMeans](homework_04_kmeans/README.md)
-5. [Logistic Regression](homework_05_logistic_regression/README.md)
-6. [Neural Networks](homework_06_nn/README.md)
+4. [☆kMeans](homework_04_kmeans/README.md)
+5. [☆Logistic Regression](homework_05_logistic_regression/README.md)
+6. [☆Neural Networks](homework_06_nn/README.md)
 7. [PyTorch](homework_07_pytorch)
 8. [Deep Learning](homework_08_dl)
 9. [Object Detection](homework_09_object_detection)
