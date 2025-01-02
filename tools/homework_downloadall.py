@@ -26,8 +26,12 @@ def homework_download_all(fname):
             id = items[1].strip()
             url = items[3].strip()
 
-            if len(url) < 1: continue
+            # if git url is empty, then skip
+            if len(url) < 1: 
+                print("%s %s - git does not exist!" % (id, n))
+                continue
         
+            # fix git url
             if not url.endswith(".git"):
                 git_rep = url + ".git"
             else:
@@ -36,7 +40,14 @@ def homework_download_all(fname):
 
             print("%s : %s" % (dir_name, git_rep))
             print("")
+            
+            # if git rep exist, then skip
+            if os.path.exists(dir_name):
+                print("%s - exist, skip" % dir_name)
+                continue
 
+            # clone git repo
+            print(">>> git clone %s [%s]" % (git_rep, dir_name))
             pool.apply_async(homework_download, (git_rep, dir_name))
 
     pool.close()
