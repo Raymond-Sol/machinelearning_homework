@@ -21,12 +21,17 @@ def homework_download_all(fname):
     lns = open(fname).readlines()
     for l in lns:
         items = l.split(",")
-        if( len(items) >= 3 ):
-            n = items[0].strip()
+        if( len(items) >= 4 ):
+            n = items[2].strip()
             id = items[1].strip()
-            url = items[2].strip()
+            url = items[3].strip()
 
-            git_rep = url + ".git"
+            if len(url) < 1: continue
+        
+            if not url.endswith(".git"):
+                git_rep = url + ".git"
+            else:
+                git_rep = url
             dir_name = id + "_" + n
 
             print("%s : %s" % (dir_name, git_rep))
