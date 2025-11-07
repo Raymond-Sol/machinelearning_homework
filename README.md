@@ -79,6 +79,10 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 5. [Jigsaw-Puzzle](report_05_Jigsaw-Puzzle/README.md)
 6. [Sudoku](report_06_Sudoku/README.md)
 7. [FacialKeypoint](report_07_FacialKeypoint)
+8. [图像的文字检索](report_08_Image_Text_Search)
+9. [自动科研论文检索Agent](report_09_Auto_Paper_Search)
+
+
 
 
 
