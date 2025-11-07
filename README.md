@@ -2,7 +2,7 @@
 
 机器学习越来越多应用到飞行器、机器人等领域，其目的是利用计算机实现类似人类的智能，从而实现装备的智能化与无人化。本课程旨在引导学生掌握机器学习的基本知识、典型方法与技术，通过具体的应用案例激发学生对该学科的兴趣，鼓励学生能够从人工智能的角度来分析、解决飞行器、机器人所面临的问题和挑战。
 
-本课程主要内容包括Python编程基础，机器学习模型，无监督学习、监督学习、深度学习基础知识与实现，并学习如何利用机器学习解决实际问题。课程的讲义等学习资料在[《机器学习与人工智能》在线网站](https://gitee.com/pi-lab/machinelearning_notebook)，课程讲座的视频在[《B站 - 机器学习与人工智能》](https://www.bilibili.com/video/BV1oZ4y1N7ei/)。
+本课程主要内容包括Python编程基础，机器学习模型，无监督学习、监督学习、深度学习基础知识与实现，并学习如何利用机器学习解决实际问题。课程的讲义等学习资料在[《机器学习与人工智能》](https://gitee.com/pi-lab/machinelearning_notebook)讲义与在线网站，课程讲座的视频在[《B站 - 机器学习与人工智能》](https://www.bilibili.com/video/BV1oZ4y1N7ei/)，Python环境的安装可以参考这个[Python环境安装说明](https://gitee.com/pi-lab/machinelearning_notebook/blob/master/references_tips/InstallPython.md)。
 
 本课程有配套的教材[《机器学习算法与实现》](http://www.adv-ci.com/blog/mlai/)，该书以机器学习的算法原理与实现贯穿始终，通过算法、数据结构、面向对象、编程实现一步一步地引入，让读者无需额外学习算法与数据结构等知识，就能理解并应用机器学习到各自的专业。本书配有教学视频、在线讲义、习题和练习项目，适合各专业读者作为教材或者自学，能够给相关领域的工程师提供全面而又丰富资料，因此能够更好的掌握机器学习的理论、算法和应用。购买的方式：[《淘宝购买》](https://detail.tmall.com/item.htm?id=690461235159), [《当当网购买》](http://product.dangdang.com/11305232248.html)， [《JD购买》](https://item.jd.com/13493037.html) 。
 
@@ -13,7 +13,7 @@
 
 由于这门课程需要大量的编程、练习才能学好，因此需要大家积极把作业做好，通过作业、练习来牵引学习、提高解决问题的能力、自学等能力。
 
-关于如何提交作业，如何使用[《Git》](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)，[《Markdown》](https://gitee.com/pi-lab/learn_programming/blob/master/6_tools/markdown/README.md)等等，可以参考各自的教程和使用帮助。
+关于如何提交作业，如何使用[《Git》](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)，[《Markdown》](https://gitee.com/pi-lab/learn_programming/blob/master/6_tools/markdown/README.md)，Python环境的安装可以参考这个[Python环境安装说明](https://gitee.com/pi-lab/machinelearning_notebook/blob/master/references_tips/InstallPython.md)。
 
 
 
@@ -52,6 +52,7 @@ git commit -m "change description"
 
 更多关于Git的用法可以阅读 [《Git教程》](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)
 
+Python环境的安装可以参考这个[Python环境安装说明](https://gitee.com/pi-lab/machinelearning_notebook/blob/master/references_tips/InstallPython.md)。
 
 
 ## 3. 作业
@@ -89,6 +90,7 @@ git commit -m "change description"
 ## 5. 使用帮助
 
 * [学习资料汇总](https://gitee.com/pi-lab/machinelearning_notebook/blob/master/References.md)
+* [Python环境安装说明](https://gitee.com/pi-lab/machinelearning_notebook/blob/master/references_tips/InstallPython.md)
 * [Git教程](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)
 * [Markdown教程](https://gitee.com/pi-lab/learn_programming/blob/master/6_tools/markdown/README.md)
 
