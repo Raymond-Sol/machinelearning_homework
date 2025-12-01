@@ -84,10 +84,14 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 
 
 
-
-
 附加的报告（选做，加分）
 * [自己的研究如何应用机器学习（选做题）](report_00_Self_Research/README.md)
+
+
+
+报告提交的具体要求： [报告提交的具体要求](Report_Req.md)
+
+
 
 
 
