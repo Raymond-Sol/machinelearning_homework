@@ -27,6 +27,23 @@
 
 
 
+## 关于代码
+
+1. 可以挑选关键、重要的部分代码放进报告里
+2. 代码可以作为代码块插入到Notebook里，或者Markdown文件里
+3. 代码放在仓库里
+4. 也可以在文档里写清楚代码在仓库哪里，说明清楚各个部分的功能和作用
+
+
+
+## 关于数据、模型文件
+* 训练数据集，机器学习模型如果文件比较大，不放在这个仓库 
+* 可以使用 [.gitignore](https://zhuanlan.zhihu.com/p/52885189) 将大的文件排除掉
+* 可以将比较大的文件上传到网盘上，把网盘的地址放在报告正文里
+* 如果不慎提交了比较大的文件，可以从仓库里面删除，参考下面的说明 `如何删除git本地仓库里面比较大的文件`。为保险，先将本地仓库备份一下（例如压缩成一个压缩包，或者复制一份副本）
+
+
+
 ## 设置作业、报告仓库为私有
 
 如果不想让其他人看到自己的作业和报告，可以设置自己的仓库为私有仓库。但是需要把我（`bushuhui`）加入到你的仓库。以下是具体的操作步骤 ：
@@ -53,4 +70,85 @@
 
 ![img4](images/git_private/git_private_04_add_user.png)
 
+
+
+
+
+## 如何删除git本地仓库里面比较大的文件
+
+### 方法一：仅删除最新提交中的大文件（最简单）
+
+如果大文件只在最近的提交中，且尚未推送到远程：
+
+```bash
+# 从暂存区和工作区删除文件
+git rm 大文件名.bin
+
+# 提交更改
+git commit --amend -m "移除大文件"
+
+# 清理缓存（可选）
+git gc --prune=now
+```
+
+### 方法二：从历史记录中彻底删除（推荐）
+
+如果大文件已存在于历史提交中，需要使用 `git filter-repo`（推荐）或 `filter-branch`。
+
+#### 使用 git filter-repo（现代推荐方式）
+
+先安装：
+```bash
+# macOS
+brew install git-filter-repo
+
+# Linux
+pip install git-filter-repo
+```
+
+删除指定大文件：
+```bash
+# 删除特定文件
+git filter-repo --path 大文件名.bin --invert-paths
+
+# 或删除特定目录
+git filter-repo --path 目录名/ --invert-paths
+```
+
+#### 使用 git filter-branch（旧版方法，较慢）
+
+```bash
+git filter-branch --force --index-filter \
+'git rm --cached --ignore-unmatch 大文件名.bin' \
+--prune-empty --tag-name-filter cat -- --all
+```
+
+
+### 如何找到仓库中的大文件
+
+在清理前，先识别哪些文件占用了空间：
+
+```bash
+# 查看仓库中最大的 10 个文件
+git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | awk '/^blob/ {print $3" "$4}' | sort -rn | head -10
+```
+
+### 清理后的必要步骤
+
+```bash
+# 强制更新远程仓库（如果已推送过历史）
+git push origin --force --all
+
+# 清理本地未引用的对象，真正释放磁盘空间
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+```
+
+### ⚠️ 重要提醒
+
+1. **重写历史风险**：修改已推送的历史会改变 commit hash，团队协作时需确保其他成员知晓并同步
+2. **备份**：操作前建议先 `git clone --mirror` 备份整个仓库
+3. **敏感信息**：如果是误传的密码/密钥，仅删除文件不够，需轮换（revoke）相关凭证
+
+如果只是本地暂存区（未提交）的大文件，直接用 `git reset HEAD 文件名` 或 `git checkout -- 文件名` 即可取消跟踪。
 
