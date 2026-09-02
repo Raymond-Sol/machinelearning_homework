@@ -56,21 +56,23 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 
 ## 3. 作业
 
-1. [☆Python基础](homework_01_python/README.md)
-2. [☆Numpy & Matplotlib](homework_02_numpy_matplotlib/README.md)
+1. [★Python基础](homework_01_python/README.md)
+2. [★Numpy & Matplotlib](homework_02_numpy_matplotlib/README.md)
 3. [kNN](homework_03_knn/README.md)
-4. [☆kMeans](homework_04_kmeans/README.md)
-5. [☆Logistic Regression](homework_05_logistic_regression/README.md)
-6. [☆Neural Networks](homework_06_nn/README.md)
+4. [★kMeans](homework_04_kmeans/README.md)
+5. [★Logistic Regression](homework_05_logistic_regression/README.md)
+6. [★Neural Networks](homework_06_nn/README.md)
 7. [PyTorch](homework_07_pytorch)
 8. [Deep Learning](homework_08_dl)
 9. [Object Detection](homework_09_object_detection)
 10. [Deep Q-Learning](homework_10_dqn)
 
+标★的是必须要完成的，其他的作业是可选的。
 
 
 ## 4. 报告
 
+0. [自己的研究如何应用机器学习（选做题）](report_00_Self_Research/README.md)
 1. [房价预测](report_01_Price_Prediction/README.md)
 2. [Titanic](report_02_Titanic/README.md)
 3. [Fashion](report_03_Fashion/README.md)
@@ -84,17 +86,9 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 11. [★eVTOL高可靠飞行控制系统](report_21_eVTOL_FlightControl/README.md)
 12. [★个人科研资料智能管理库](report_22_Research_Library/README.md)
 
-**选择 10、11 或 12（高难度报告）其中之一完成即可，无需再完成其他报告，可以使用AI工具来做这些高难度的项目**；其余报告仍需选3个，不能使用AI工具。
-
-
-
-附加的报告（选做，加分）
-* [自己的研究如何应用机器学习（选做题）](report_00_Self_Research/README.md)
-
-
+**选择 10、11 或 12（高难度报告）其中之一完成即可，无需再完成其他报告，可以使用AI工具来做这些高难度的项目**；其余报告仍需选3个，不能使用AI工具。`自己的研究如何应用机器学习（选做题）` 是附加的报告，选做，加分。
 
 报告提交的具体要求： [报告提交的具体要求](Report_Req.md)
-
 
 
 
