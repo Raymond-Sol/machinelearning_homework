@@ -27,7 +27,7 @@ CLIP（Contrastive Language–Image Pre-training）是一种多模态神经网�
 7. 开发一个简单 streamlit 界面，能够完成检索词的输入，检索出来图像的显示
 8. 分析自己实现的方法的问题，以及如何改进。
 9. 深入思考，如何更进一步提高多模态网络的性能？
-10. 按照`report_template.ipynb`撰写自己的报告。
+10. 按照`report_template.md`撰写自己的报告。
 
 
 

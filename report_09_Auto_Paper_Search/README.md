@@ -20,7 +20,7 @@ Agent的应用场景已覆盖个人与产业两端：个人助手可自动完成
 1. 学习仓库 https://github.com/4everWZ/DailyPaper 里面的代码，学会如何通过Python访问ArXiv等网站
 2. 学习仓库 https://github.com/xgzlucario/githubhunt ，掌握Agent的编写
 3. 在 githubhunt 基础上，把程序修改、改进成查找输入主题论文的的Agent
-4. 按照`report_template.ipynb`撰写自己的报告。
+4. 按照`report_template.md`撰写自己的报告。
 
 
 

@@ -48,7 +48,7 @@ https://www.kaggle.com/bryanpark/sudoku
 4. 测试所研究方法的效果。
 5. 分析自己实现的方法的问题，以及如何改进。
 6. 深入思考，如何使用强化学习的方法实现求解数独问题？
-7. 按照`report_template.ipynb`撰写自己的报告。
+7. 按照`report_template.md`撰写自己的报告。
 
 
 

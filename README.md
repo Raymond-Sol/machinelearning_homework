@@ -80,6 +80,10 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 7. [FacialKeypoint](report_07_FacialKeypoint)
 8. [图像的文字检索](report_08_Image_Text_Search)
 9. [自动科研论文检索Agent](report_09_Auto_Paper_Search)
+10. [★基于AI Agent的星舰火箭模拟](report_20_Starship_Simulation/README.md)
+11. [★eVTOL高可靠飞行控制系统](report_21_eVTOL_FlightControl/README.md)
+
+**选择 10 或 11（高难度报告）其中之一完成即可，无需再完成其他报告**；其余报告仍需选3个。
 
 
 
@@ -101,12 +105,3 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 * [Git教程](https://gitee.com/pi-lab/learn_programming/tree/master/6_tools/git/README.md)
 * [Markdown教程](https://gitee.com/pi-lab/learn_programming/blob/master/6_tools/markdown/README.md)
 
-
-
-## 6. 参考
-
-* https://blog.csdn.net/ChenVast/article/details/81238244
-* https://zhuanlan.zhihu.com/p/37100157
-* https://edu.cda.cn/article/233
-* https://blog.csdn.net/Yong_Qi2015/article/details/124012141
-* https://aistudio.baidu.com/aistudio/datasetoverview/

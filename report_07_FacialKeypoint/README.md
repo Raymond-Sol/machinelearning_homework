@@ -39,6 +39,6 @@ left_eye_center, right_eye_center, left_eye_inner_corner, left_eye_outer_corner,
 4. 使用测试数据分网络的性能
 5. 分析自己实现的方法的问题，以及如何改进。
 6. 深入思考，如何更进一步提高网络的性能？
-7. 按照`report_template.ipynb`撰写自己的报告。
+7. 按照`report_template.md`撰写自己的报告。
 
 

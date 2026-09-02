@@ -37,7 +37,7 @@ https://www.kaggle.com/shivajbd/jigsawpuzzle
 4. 测试所研究方法的效果。
 5. 分析自己实现的方法的问题，以及如何改进。
 6. 深入思考，如何解决3x3的拼图？或者更大的拼图？
-7. 按照`report_template.ipynb`撰写自己的报告。
+7. 按照`report_template.md`撰写自己的报告。
 
 
 
