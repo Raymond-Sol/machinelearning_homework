@@ -82,8 +82,9 @@ Python环境的安装可以参考这个[Python环境安装说明](https://gitee.
 9. [自动科研论文检索Agent](report_09_Auto_Paper_Search)
 10. [★基于AI Agent的星舰火箭模拟](report_20_Starship_Simulation/README.md)
 11. [★eVTOL高可靠飞行控制系统](report_21_eVTOL_FlightControl/README.md)
+12. [★个人科研资料智能管理库](report_22_Research_Library/README.md)
 
-**选择 10 或 11（高难度报告）其中之一完成即可，无需再完成其他报告**；其余报告仍需选3个。
+**选择 10、11 或 12（高难度报告）其中之一完成即可，无需再完成其他报告，可以使用AI工具来做这些高难度的项目**；其余报告仍需选3个，不能使用AI工具。
 
 
 
